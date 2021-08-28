@@ -1,0 +1,11 @@
+name = "worker"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+
+[build]
+command = "yarn && yarn build"
+[build.upload]
+format = "service-worker"
